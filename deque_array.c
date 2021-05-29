@@ -85,7 +85,7 @@ void deleteTail()
 {
   if (Head == -1)
   {
-    printf("Дек не заполнен\n");
+    printf("Дек не заполнен.\n");
     return;
   }
   printf("Удалённый элемент: %d\n", dequeArray[Tail]);
@@ -105,7 +105,7 @@ void printDeque()
   int Front = Head, Rear = Tail;
   if (Head == -1)
   {
-    printf("Дек пуст\n");
+    printf("Дек пуст.\n");
     return;
   }
   printf("Элементы дека :\n");
